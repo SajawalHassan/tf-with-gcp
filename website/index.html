@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beautiful Flowers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gradient-to-br from-pink-100 via-purple-100 to-yellow-100 min-h-screen flex flex-col"
+  >
+    <!-- Navbar -->
+    <header class="bg-white/80 backdrop-blur-md shadow-md">
+      <nav
+        class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-pink-600">Flower World</h1>
+        <ul class="flex gap-6 text-gray-700 font-medium">
+          <li><a href="#" class="hover:text-pink-600 transition">Home</a></li>
+          <li>
+            <a href="#" class="hover:text-pink-600 transition">Gallery</a>
+          </li>
+          <li><a href="#" class="hover:text-pink-600 transition">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-16 px-6">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800">
+        Discover the Beauty of Flowers
+      </h2>
+      <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+        Flowers are nature’s most delicate art—vivid colors, soft petals, and
+        unique fragrances. Explore some of the most beautiful flowers in the
+        world.
+      </p>
+    </section>
+
+    <!-- Flower Cards -->
+    <main
+      class="max-w-6xl mx-auto px-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 pb-16"
+    >
+      <!-- Rose -->
+      <div
+        class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=60"
+          alt="Rose"
+          class="h-56 w-full object-cover"
+        />
+        <div class="p-5">
+          <h3 class="text-2xl font-semibold text-pink-600">Rose</h3>
+          <p class="mt-2 text-gray-600">
+            Known as the queen of flowers, roses symbolize love, passion, and
+            beauty.
+          </p>
+        </div>
+      </div>
+
+      <!-- Sunflower -->
+      <div
+        class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=800&q=60"
+          alt="Sunflower"
+          class="h-56 w-full object-cover"
+        />
+        <div class="p-5">
+          <h3 class="text-2xl font-semibold text-yellow-500">Sunflower</h3>
+          <p class="mt-2 text-gray-600">
+            Bright and cheerful, sunflowers follow the sun and symbolize warmth
+            and happiness.
+          </p>
+        </div>
+      </div>
+
+      <!-- Tulip -->
+      <div
+        class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1504198458649-3128b932f49b?auto=format&fit=crop&w=800&q=60"
+          alt="Tulip"
+          class="h-56 w-full object-cover"
+        />
+        <div class="p-5">
+          <h3 class="text-2xl font-semibold text-purple-600">Tulip</h3>
+          <p class="mt-2 text-gray-600">
+            Tulips bloom in spring and are celebrated for their simplicity and
+            vibrant colors.
+          </p>
+        </div>
+      </div>
+
+      <!-- Orchid -->
+      <div
+        class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1593062096033-9a26b0c9a8ad?auto=format&fit=crop&w=800&q=60"
+          alt="Orchid"
+          class="h-56 w-full object-cover"
+        />
+        <div class="p-5">
+          <h3 class="text-2xl font-semibold text-fuchsia-600">Orchid</h3>
+          <p class="mt-2 text-gray-600">
+            Orchids represent elegance, beauty, and strength with their exotic
+            appearance.
+          </p>
+        </div>
+      </div>
+
+      <!-- Daisy -->
+      <div
+        class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=60"
+          alt="Daisy"
+          class="h-56 w-full object-cover"
+        />
+        <div class="p-5">
+          <h3 class="text-2xl font-semibold text-green-600">Daisy</h3>
+          <p class="mt-2 text-gray-600">
+            Simple and pure, daisies symbolize innocence and a fresh start.
+          </p>
+        </div>
+      </div>
+
+      <!-- Lavender -->
+      <div
+        class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=60"
+          alt="Lavender"
+          class="h-56 w-full object-cover"
+        />
+        <div class="p-5">
+          <h3 class="text-2xl font-semibold text-indigo-600">Lavender</h3>
+          <p class="mt-2 text-gray-600">
+            Famous for its soothing fragrance, lavender brings calmness and
+            peace.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white/80 backdrop-blur-md shadow-inner py-6">
+      <p class="text-center text-gray-600">
+        &copy; 2025 Flower World. All Rights Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
